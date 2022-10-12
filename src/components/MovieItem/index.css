@@ -1,0 +1,28 @@
+.img-scrol {
+  width: 300px;
+  margin: 2px;
+  cursor: pointer;
+}
+.popup-counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  padding: 10px;
+}
+.btn-close {
+  align-self: flex-end;
+  background-color: transparent;
+  width: 28px;
+  height: 28px;
+  border: none;
+  margin-top: 18px;
+  margin-right: 18px;
+  outline: none;
+  cursor: pointer;
+}
+.popup-content {
+  border-radius: 10px;
+}
